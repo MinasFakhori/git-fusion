@@ -1,0 +1,2 @@
+[console_scripts]
+git-fusion = package.app:app

@@ -1,5 +1,5 @@
 import subprocess
-from git_get import get_all_remote_repos
+from src.git_get import get_all_remote_repos
 
 def push_all(branch): 
     remote_repos = get_all_remote_repos()

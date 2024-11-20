@@ -1,6 +1,6 @@
 import re
 import subprocess
-from git_get import get_all_remote_repos
+from src.git_get import get_all_remote_repos
 
 SSH_PATTERN = r"^git@[a-zA-Z0-9.-]+:[a-zA-Z0-9._-]+/[a-zA-Z0-9._-]+\.git$"
 

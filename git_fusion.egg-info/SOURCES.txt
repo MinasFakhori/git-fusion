@@ -1,0 +1,13 @@
+setup.py
+git_fusion.egg-info/PKG-INFO
+git_fusion.egg-info/SOURCES.txt
+git_fusion.egg-info/dependency_links.txt
+git_fusion.egg-info/entry_points.txt
+git_fusion.egg-info/requires.txt
+git_fusion.egg-info/top_level.txt
+package/__init__.py
+package/app.py
+src/__init__.py
+src/add_remote.py
+src/git_get.py
+src/push_remote.py

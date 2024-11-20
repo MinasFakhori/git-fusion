@@ -2,9 +2,10 @@ import os
 
 import typer
 
-from add_remote import add_remote_repo
-from git_get import get_all_remote_repos
-from push_remote import push_all,push_one
+from src.add_remote import add_remote_repo
+from src.git_get import get_all_remote_repos
+from src.push_remote import push_all,push_one
+
 
 
 app = typer.Typer()
@@ -18,11 +19,11 @@ def list_repos():
     print(get_all_remote_repos())
     
 @app.command(name="push-all", help="Pushes the current branch to all remote repositories.")
-def push_all(branch="main"):
+def push_everything(branch="main"):
     push_all(branch)
 
 @app.command(name="push-one", help="Pushes the current branch to a specific remote repository.")
-def push_one(platform_name: str, branch="main"):
+def push_one_thing(platform_name: str, branch="main"):
     push_one(platform_name, branch)
 
     
