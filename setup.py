@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='git-fusion',  # Replace with your tool's name
+    name='git-fusion',  
     version='1.0.0',
     packages=find_packages(),
-    install_requires=["typer"],  # Add dependencies if needed
+    install_requires=["typer"], 
     entry_points={
         'console_scripts': [
-            'git-fusion=package.app:app',  # 'command=module:function'
+            'git-fusion=package.app:app',  
         ],
     },
     author="MinasFakhori",
